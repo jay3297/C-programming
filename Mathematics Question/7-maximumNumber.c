@@ -1,10 +1,8 @@
 #include<stdio.h>
 void main()
 {
-    int num1;
-    int num2;
-    int num3;
-      printf("\n enter the number1 :");
+    int num1,num2,num3;
+    printf("\n enter the number1 :");
     scanf("%d",&num1);
     printf("\n enter the number2 :");
     scanf("%d",&num2);
@@ -24,4 +22,5 @@ void main()
     printf("\n number 3 is the maximum number :%d",num3);
   }
 
-}
+
+} 
