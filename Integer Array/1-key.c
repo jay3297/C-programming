@@ -3,6 +3,7 @@ void main()
 {   
     int arr[10];
     int key;
+    int var;
     printf("Enter the key :");
     scanf("%d",&key);
     printf("enter integer array :");
@@ -12,15 +13,18 @@ void main()
     }
     for(int i=0;i<10;i++)
     {
+        var =arr[i];
+        // printf("\n %d",var);
         if(arr[i]==key)
         {
         printf("\n key index of array  : %d",i);
+        break;
         } 
-        else if (arr[i]!=key)
-        {
-            printf("\n key is not found :",-1);
-        }
 
+    }
+     if(var!=key)
+    {
+        printf("\n key is not found ");
     }
         
 }
