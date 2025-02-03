@@ -16,6 +16,10 @@ void main()
         {
         printf("\n key index of array  : %d",i);
         } 
+        else if (arr[i]!=key)
+        {
+            printf("\n key is not found :",-1);
+        }
 
     }
         
