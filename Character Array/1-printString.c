@@ -11,6 +11,6 @@ void main()
     for(int i=0;i<5;i++)
     {
         char username =arr[i];
-        printf("%c",username);
+        printf("%c",arr[i]);
     }
 }

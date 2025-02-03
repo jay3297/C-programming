@@ -1,12 +1,9 @@
+//this code with if else 
 #include <stdio.h>
 
 void main()
 {
-    int num1;
-    int num2;
-    int num3;
-    int result;
-    char operator;
+    int num1,num2,num3,result,operator;
 
     printf("\n enter the number1 :");
     scanf("%d",&num1);
