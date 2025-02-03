@@ -3,7 +3,8 @@ void main()
 {   
     int arr[10];
     int key;
-    int keyFound =0;//flag 
+    int keyFound =0;//flag
+    int count =0; 
     printf("Enter the key :");
     scanf("%d",&key);
     printf("enter integer array :");
@@ -16,14 +17,17 @@ void main()
         if(arr[i]==key)
         {
         keyFound=1;//unflag 
-        } 
+        printf("\n key found in array :%d",i);
+        break;
+        }
+        count++;
     }
-    if(keyFound)
+    printf(" \n %d",count);
+    if(keyFound==0)
     {
-        printf("\n key found in array :");
+        printf("\n key is not found return -1"); 
     }
-    else{
-        printf("\n key is not found return -1");
-    }
+    
+    
         
 }
