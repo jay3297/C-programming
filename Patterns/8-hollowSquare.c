@@ -17,7 +17,7 @@ void main()
                 {
                     printf("*");
                 }
-                else{
+                else{ 
                     printf(" ");
                 }
             }
